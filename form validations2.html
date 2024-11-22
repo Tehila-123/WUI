@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body> 
+    <h1>Military Application</h1>
+      <div class="container"> 
+           <header>Registration</header>
+              <form  action="form validations.php" method="POST">
+                 <div class="form first">
+                 
+                    <div class=" details personal">
+                       <span class="title">Personal details</span>
+                           <div class="fields">
+                              <div class="input-field">
+                                  <label>Full names:</label><input type="text" placeholder="Name" name="name"required>
+                                     </div>
+                
+                                       <div class="input-field"><label>Parent's name:</label><input type="text" placeholder="parent's names" min="5" max="30" name="parent"required >
+                                        </div>
+                                        <div class="input-field"><label>Phone:</label><input type="number" placeholder="Phone" pattern="^\d{10}$" name="phone"required>
+                                        </div>
+                                        <div class="input-field"><label>Date of birth:</label><input type="date"  name="birth"required>
+                                        </div>
+
+                                        <div class=" location">
+                                            <span class="title">Your Location:</span>
+                                                <div class="fields">
+                           
+                                        <div class="input-field"><label>Province:</label><input type="text" name="province" placeholder="Province"required>
+                                        </div>
+                                        <div class="input-field"><label>District:</label><input type='text' name="district"placeholder="District"required>
+                                        </div>
+                                        <div class="input-field"> <label>Sector:</label><input type="text" name="sector"placeholder="Sector"required>
+                                        </div>
+                                        <div class="input-field"> <label>Cell:</label><input type="text" name="cell" placeholder="Cell"required>
+                                        </div>
+                                        <div class="input-field"> <label>Village:</label><input type="text" name="village" placeholder="Village"required>
+                                        </div>
+                                        <div class="input-field"> <label>Gender:</label><!--<input type="text" name="gender" required>-->
+                                            <select name="gender">
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                </div>
+                            </div>   
+                           
+                    
+
+
+
+                                        
+
+                                        
+                                                  
+                                                     
+                                    
+       
+       
+       
+
+                               
+                                  </div> 
+                                  
+                                  <button class="submit">
+                                    <span class="submit">Submit</span>
+                                    <i class="uil uil-navigator"></i>
+                                  </button>
+                             </div>         
+                  </div>                   
+            </form>
+      </div>
+
+       
+       
+    
+       
+
+</body>
+</html>
+                                                
